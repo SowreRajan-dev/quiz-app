@@ -51,6 +51,7 @@ button {
   padding: 5px 10px;
   color: white;
   outline: none;
+  cursor: pointer;
 }
 
 button:hover {
@@ -103,6 +104,14 @@ button:hover {
 
 #showScoresButton {
   margin-top: 0.3rem;
+}
+
+.post-credits {
+  position: relative;
+  bottom: 0;
+  color: #0e2939;
+  font-size: 30px;
+  background-color: beige;
 }
 
 @media only screen and (max-width: 768px) {

@@ -214,10 +214,101 @@ const questions = [
     question:
       "Which of the following is a powerful RAT build using the language Delphi 7.",
     answers: [
+      { text: "Internet of Everyday", correct: false },
+      { text: "Insight into Everything", correct: false },
+      { text: "Intelligence on Everything", correct: false },
+      { text: " Internet of Everything", correct: true },
+    ],
+  },
+  {
+    question: "What does the acronym IoE represent?",
+    answers: [
       { text: "Stuxnet", correct: false },
       { text: "T-Bomb", correct: true },
       { text: "Beast", correct: false },
       { text: " Zeus", correct: false },
+    ],
+  },
+  {
+    question: "What name is given to a amateur hacker?.",
+    answers: [
+      { text: "blue team", correct: false },
+      { text: "red hat", correct: false },
+      { text: "script kiddies", correct: true },
+      { text: "black hat", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the workforce framework category that includes highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence?",
+    answers: [
+      { text: "Oversight and Development", correct: false },
+      { text: "Protect and Defend", correct: false },
+      { text: "Analyze", correct: true },
+      { text: "Securely Provision", correct: false },
+    ],
+  },
+  {
+    question: "What name is given to hackers who hack for a cause?",
+    answers: [
+      { text: "white hat", correct: false },
+      { text: "grey hat", correct: true },
+      { text: "hacker", correct: false },
+      { text: " hactivist", correct: false },
+    ],
+  },
+  {
+    question: "What does the term vulnerability mean?",
+    answers: [
+      {
+        text: "a computer that contains sensitive information",
+        correct: false,
+      },
+      { text: "a method of attack to exploit a target", correct: false },
+      {
+        text: "a weakness that makes a target susceptible to an attack",
+        correct: true,
+      },
+      { text: "a known target or victim machine", correct: false },
+      { text: "a potential threat that a hacker creates", correct: false },
+    ],
+  },
+  {
+    question: "What does the term BYOD represent?",
+    answers: [
+      { text: "bring your own decision", correct: false },
+      { text: "buy your own disaster", correct: false },
+      { text: "bring your own disaster", correct: false },
+      { text: "bring your own device", correct: true },
+    ],
+  },
+  {
+    question:
+      "What type of attack uses many systems to flood the resources of a target, thus making the target unavailable?",
+    answers: [
+      { text: "ping sweep", correct: false },
+      { text: "DDoS", correct: true },
+      { text: "spoof", correct: false },
+      { text: "DoS", correct: false },
+    ],
+  },
+  {
+    question: "What is an example of an Internet data domain?",
+    answers: [
+      { text: "Palo Alto", correct: false },
+      { text: "Juniper", correct: true },
+      { text: "Cisco", correct: false },
+      { text: "Linkedin", correct: false },
+    ],
+  },
+  {
+    question:
+      "What type of an attack can disable a computer by forcing it to use memory or by overworking its CPU?",
+    answers: [
+      { text: "exhaustion", correct: false },
+      { text: "algorithm", correct: true },
+      { text: "DDoS", correct: false },
+      { text: "APT", correct: false },
     ],
   },
 ];

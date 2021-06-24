@@ -211,8 +211,7 @@ const questions = [
     ],
   },
   {
-    question:
-      "Which of the following is a powerful RAT build using the language Delphi 7.",
+    question: "What does the acronym IoE represent?",
     answers: [
       { text: "Internet of Everyday", correct: false },
       { text: "Insight into Everything", correct: false },
@@ -221,7 +220,8 @@ const questions = [
     ],
   },
   {
-    question: "What does the acronym IoE represent?",
+    question:
+      "Which of the following is a powerful RAT build using the language Delphi 7.",
     answers: [
       { text: "Stuxnet", correct: false },
       { text: "T-Bomb", correct: true },
